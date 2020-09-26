@@ -1,8 +1,10 @@
+/*--------------GENERAL-----------------*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*--------------ASIDE--------------------*/
 #img-principal img{
     border-radius: 50%;
 }
@@ -19,4 +21,14 @@ aside h2{
 
 aside section h2:first-child{
     border-bottom: 2px solid white;
+}
+
+/*--------------MAIN--------------*/
+#nombre{
+    background-color: #69ACE1;
+}
+
+#nombre h2{
+    color: white;
+    border-top: 2px solid white;
 }
