@@ -1,8 +1,8 @@
 /*--------------GENERAL-----------------*/
-*{
+/**{
     margin: 0;
     padding: 0;
-}
+}*/
 
 /*--------------ASIDE--------------------*/
 #img-principal img{
@@ -26,6 +26,7 @@ aside section h2:first-child{
 /*--------------MAIN--------------*/
 #nombre{
     background-color: #69ACE1;
+    box-shadow: 3px 3px 10px 2px #647087 inset;
 }
 
 #nombre h2{
