@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img-principal img{
+    border-radius: 50%;
+}
