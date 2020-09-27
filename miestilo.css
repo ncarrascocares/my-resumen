@@ -27,13 +27,16 @@ dt{
     clear: left;
     width: 25%;
     float: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
 }
 
 dd{
     clear: right;
     float: left;
     width: 50%;
-    margin: 0;
+    margin: 20px 0;
     
 }
 
