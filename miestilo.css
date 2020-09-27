@@ -19,38 +19,17 @@ aside h2{
     letter-spacing: 2px;
 }
 
-/*dl{
-    margin-bottom: 70px;
-}
-
-dt{
-    clear: left;
-    width: 25%;
-    float: left;
-    margin-bottom: 10px;
-    font-weight: bold;
-    
-}
-
-dd{
-    clear: right;
-    float: left;
-    width: 50%;
-    margin: 20px 0;
-    
-}*/
-
 dl{
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    font-weight: bold;
+    
 }
 
 dt,
 dd{
-    
-    margin: 4px;
-     
+    margin: 4px;     
 }
 
 aside section h2:first-child{
