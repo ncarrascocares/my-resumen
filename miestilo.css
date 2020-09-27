@@ -60,3 +60,8 @@ article h3{
 article h4{
     font-weight: bold;
 }
+
+/*------REFERENCIAS-----*/
+.referencias{
+    display: flex;
+}
