@@ -19,7 +19,7 @@ aside h2{
     letter-spacing: 2px;
 }
 
-dl{
+/*dl{
     margin-bottom: 70px;
 }
 
@@ -38,6 +38,19 @@ dd{
     width: 50%;
     margin: 20px 0;
     
+}*/
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+dt,
+dd{
+    
+    margin: 4px;
+     
 }
 
 aside section h2:first-child{
