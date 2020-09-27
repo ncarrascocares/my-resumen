@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }*/
-
+/*--------------LAYOUT-------------------*/
+.contenedor{
+    display: flex;
+}
 /*--------------ASIDE--------------------*/
 #img-principal img{
     border-radius: 50%;
