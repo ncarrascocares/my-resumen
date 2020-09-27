@@ -1,11 +1,7 @@
-/*--------------GENERAL-----------------*/
-/**{
-    margin: 0;
-    padding: 0;
-}*/
 /*--------------LAYOUT-------------------*/
 .contenedor{
     display: flex;
+    width: 1000px;
 }
 /*--------------ASIDE--------------------*/
 #img-principal img{
