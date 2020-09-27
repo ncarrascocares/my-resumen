@@ -24,6 +24,11 @@ aside section h2:first-child{
 }
 
 /*--------------MAIN--------------*/
+main section > h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 #nombre{
     background-color: #69ACE1;
     box-shadow: 3px 3px 10px 2px #647087 inset;
@@ -32,4 +37,22 @@ aside section h2:first-child{
 #nombre h2{
     color: white;
     border-top: 2px solid white;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.sobre-mi{
+    background-color: #F7DDC3;
+}
+
+.sobre-mi h2{
+    background-color: white;
+}
+
+article h3{
+    font-weight: bold;
+}
+
+article h4{
+    font-weight: bold;
 }
