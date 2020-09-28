@@ -112,21 +112,8 @@ li{
     margin: 20px;
 }
 
-#pie{
-   
-}
-
-#pie ul{
-
-}
-
-#pie ul li{
-    display: inline;
-    padding: 10px;
-    
-}
-
 i{
     font-size: 50px;
-    text-align: center;
+    margin-left: 0.1rem;
+    color: black;
 }
