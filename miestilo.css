@@ -24,7 +24,7 @@ li{
 .nc{
     background-color: #E5E7E9;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .nc h2{
@@ -44,7 +44,7 @@ li{
     flex-wrap: wrap;
     width: auto;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .sobre-mi h2{
@@ -52,7 +52,8 @@ li{
 }
 
 .sobre-mi p{
-    margin: 5%;
+    margin: 20px;
+    text-align: center;
 }
 
 .educacion{
@@ -65,7 +66,7 @@ li{
 
 .educacion h2{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     
 }
 
@@ -74,7 +75,7 @@ li{
     padding-bottom: 3px;
 }
 
-.conocimientos{
+.experiencia{
     background-color: #E5E7E9;
     flex-wrap: wrap;
     width: auto;
@@ -82,13 +83,17 @@ li{
     text-align: justify;
 }
 
-.conocimientos h2{
+.experiencia h2, h5, h6{
     text-align: center;
     padding-bottom: 10px;
     
 }
 
-.conocimientos ul li{
+.experiencia p{
+    text-align: center;
+}
+
+.experiencia ul li{
     text-align: center;
     padding-bottom: 3px;
 }
