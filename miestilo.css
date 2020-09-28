@@ -6,13 +6,71 @@
 
 body{
     background-color:#ededed;
-    
+}
+
+li{
+    list-style: none;
 }
 
 .home{
     display: flex;
     flex-wrap: wrap;
+    min-width: 300px;
+    height: auto;
+    background-color: blue;
+}
 
+.nc{
+    background-color: #E5E7E9;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.nc h2{
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nc h3{
+    text-align: center;
+}
+
+.sobre-mi{
+    /*width: auto;*/
+    text-align: justify;
+    background-color: #E5E7E9;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sobre-mi h2{
+    text-align: center;
+}
+
+.sobre-mi p{
+    margin: 5%;
+}
+
+.educacion{
+    background-color: #E5E7E9;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px;
+
+}
+
+.educacion h2{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.educacion ul li{
+    text-align: center;
+    padding-bottom: 3px;
 }
 
 .in-flex{
@@ -25,6 +83,7 @@ body{
     padding: 25px;
     background-color: white;
     margin: 20px;
+    margin-bottom: 10px;
 }
 
 .in-flex div{
