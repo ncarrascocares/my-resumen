@@ -1,7 +1,7 @@
 /*--------------LAYOUT-------------------*/
 .contenedor{
     display: flex;
-    width: 1000px;
+    width: auto;
 }
 /*--------------ASIDE--------------------*/
 #img-principal img{
