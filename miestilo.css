@@ -59,7 +59,7 @@ li{
     flex-wrap: wrap;
     width: auto;
     padding: 10px;
-
+    margin-bottom: 10px;
 }
 
 .educacion h2{
@@ -69,6 +69,25 @@ li{
 }
 
 .educacion ul li{
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.conocimientos{
+    background-color: #E5E7E9;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.conocimientos h2{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.conocimientos ul li{
     text-align: center;
     padding-bottom: 3px;
 }
