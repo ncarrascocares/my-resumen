@@ -6,6 +6,7 @@
 
 body{
     background-color:#ededed;
+    height: auto;
 }
 
 li{
@@ -109,4 +110,14 @@ li{
     padding: 25px;
     background-color: white;
     margin: 20px;
+}
+
+#pie{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: auto;
+    background-color: rgba(236, 230, 230, 0.651);
+    padding: 20px;
+    border: 1px solid black;
 }
