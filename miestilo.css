@@ -9,16 +9,12 @@ body{
     height: auto;
 }
 
-li{
-    list-style: none;
-}
-
 .home{
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
     height: auto;
-    background-color: blue;
+    background-color: rgb(59, 59, 59);
 }
 
 .nc{
@@ -27,7 +23,7 @@ li{
     padding: 10px;
 }
 
-.nc h2{
+.nc h1{
     border-bottom: 1px solid white;
     margin-bottom: 10px;
     text-align: center;
@@ -73,6 +69,7 @@ li{
 .educacion ul li{
     text-align: center;
     padding-bottom: 3px;
+    list-style: none;
 }
 
 .experiencia{
@@ -115,6 +112,17 @@ li{
     padding: 25px;
     background-color: white;
     margin: 20px;
+}
+
+#tech ul li{
+   list-style-type: none;
+   display: inline;
+   padding-right: 10px;
+   margin-left: 15px;
+}
+
+footer{
+    background-color: #E5E7E9;
 }
 
 i{
