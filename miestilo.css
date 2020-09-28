@@ -113,11 +113,20 @@ li{
 }
 
 #pie{
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 300px;
-    height: auto;
-    background-color: rgba(236, 230, 230, 0.651);
-    padding: 20px;
-    border: 1px solid black;
+   
+}
+
+#pie ul{
+
+}
+
+#pie ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+i{
+    font-size: 50px;
+    text-align: center;
 }
